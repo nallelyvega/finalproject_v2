@@ -1,0 +1,13 @@
+pace\pal\entity\Playlist.class
+pace\pal\controller\model\PacepalTag.class
+pace\pal\controllers\PacePalController.class
+pace\pal\controller\model\PacepalSong.class
+pace\pal\entity\Tag.class
+pace\pal\entity\Song.class
+pace\pal\service\PacePalService.class
+pace\pal\dao\PlaylistDao.class
+pace\pal\dao\SongDao.class
+pace\pal\controller\error\GlobalErrorHandler.class
+pace\pal\PacePalApplication.class
+pace\pal\dao\TagDao.class
+pace\pal\controller\model\PacepalPlaylist.class

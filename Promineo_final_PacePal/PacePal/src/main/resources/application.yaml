@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: pacepal
+    password: pacepal
+    url: jdbc:mysql://localhost:3306/pacepal
+     
+  # This tells JPA to create your schema
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    defer-datasource-initialization: true
+  
+  # This tells Spring to run your data.sql file.  
+  sql:
+    init:
+      mode: always
